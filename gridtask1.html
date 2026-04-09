@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container text-center mt-3">
+        <h1>Bootstrap Grid System Real-World Challenges</h1>
+    </div>
+    <div class="container">
+        <div class="mt-5">
+            <h2>1. Equal Width Columns</h2>
+            <p> <span class="fw-bold">Scenario:</span> A product website feature section with 3 equally spaced features.
+            </p>
+        </div>
+    </div>
+    <div class="container text-center mt-3">
+        <div class="row">
+            <div class="col">
+                <h4>Speed</h4>
+                <img class="rounded-3" src="speed.jpg" alt="">
+                <p>Fast performance for all users.</p>
+            </div>
+            <div class="col">
+                <h4>Security</h4>
+                <img class="rounded-3" src="security.jpg" alt="">
+                <p>Top-notch security built in.</p>
+            </div>
+            <div class="col">
+                <h4>Support</h4>
+                <img class="rounded-2" src="support.jpg" alt="">
+                <p>24/7 customer support team.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="mt-5">
+            <h2>2. Fixed Width Columns</h2>
+            <p> <span class="fw-bold">Scenario:</span> News site layout with sidebar and main content.</p>
+        </div>
+        <div class="row mt-3">
+            <div class="col-3 p-3 bg-light">
+                <h5>Sidebar</h5>
+                <nav class="nav flex-column">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Politics</a>
+                    <a class="nav-link" href="#">Tech</a>
+                </nav>
+            </div>
+            <div class="col">
+                <h4>Main Article</h4>
+                <p>This is the main news content. It is given more width for better readability.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="mt-5">
+            <h2>3. Responsive Columns</h2>
+            <p> <span class="fw-bold">Scenario:</span> Travel blog card layout.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="parisadventure.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Paris Adventure</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="tokyonights.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Tokyo Nights</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="zanzibar.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Zanzibar Escape</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="dubluxury.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Dubai Luxury</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="mt-5">
+            <h2>4. Nested Columns</h2>
+            <p> <span class="fw-bold">Scenario:</span> Team member profile card with image and text.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="row no-gutters p-2 g-0">
+                        <div class="col-4">
+                            <img class="rounded-pill" src="round_pic.jpg" alt="">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h6>Jane Doe</h6>
+                                <p>UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="mt-5">
+            <h2>5. Centered Columns</h2>
+            <p> <span class="fw-bold">Scenario:</span> Pricing page with centered single card.</p>
+        </div>
+    </div>
+    <div class="container text-center mb-3 w-50">
+        <div class="card">
+            <h5 class="mt-3">Pro Plan</h5>
+            <p>$49/month</p>
+            <button class="bg-primary text-white border-0 rounded-2 mx-3 mb-3 py-2">Subscribe</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
